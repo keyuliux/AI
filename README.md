@@ -54,3 +54,5 @@ note: we install in base, don't create new env, because some source download spe
 
 
 git clone --recursive https://github.com/apache/incubator-mxnet mxnet
+
+install pycharm, --setting,--project interpreter, select local python, plus available package, search mxnet-cu80 and install. 
