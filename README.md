@@ -56,3 +56,12 @@ note: we install in base, don't create new env, because some source download spe
 git clone --recursive https://github.com/apache/incubator-mxnet mxnet
 
 install pycharm, --setting,--project interpreter, select local python, plus available package, search mxnet-cu80 and install. 
+
+install extension to caculate time in jupyter notebook.
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable execute_time/ExecuteTime
+
+cmd for change python3 version
+sudo update-alternatives --config python3
+
